@@ -1,19 +1,78 @@
+<html>  
 <head>
   <meta charset="utf-8">
+  <style>
+	a:visited{
+		color: blue;
+		background: black;
+	}
+	a:link{
+		color: red;
+		background: yellow;
+	}
+	a:active{
+		color: yellow;
+		background: green;
+	}
+	
+	.a{
+		background: black;
+		color: white;
+	}
+	.b{
+		background: green;
+		color:yellow
+	}
+	.c{
+		background: yellow;
+		color: red;
+	}
+	
+	.first{
+		color: green;
+		font-size: 20px
+		
+	}
+	.second{
+		color: red;	
+		font-size: 15px;
+	}
+  </style>
 </head>
 
 <body>
-  <h1>var № Alpatov A.V. IU4-11B</h1>
+  <h1>var №2 Alpatov A.V. IU4-11B</h1>
   <div>
     <h2>Task 1</h2>
-    <p> .. </p>
+    <a href="http://google.com">ссылка1</a>
   </div>
   <div>
     <h2>Task 2</h2>
-    <p> .. </p>
+    <table border="1px">
+		<tr>
+			<td class="a">ячейка1.1</td>
+			<td class="b">ячейка1.2</td>
+			<td class="c">ячейка1.3</td>
+		</tr>
+		<tr>
+			<td class="a">ячейка2.1</td>
+			<td class="b">ячейка2.2</td>
+			<td class="c">ячейка3.3</td>
+		</tr>
+	</table>
   </div>
   <div>
     <h2>Task 3</h2>
-    <p> .. </p>
+    <ol>
+		<li class="first">Текст</li>
+		<li class="first">Текст</li>
+		<li>
+			<ol>
+				<li class="second">Текст</li>
+				<li class="second">Текст</li>
+			</ol>
+		</li>
+	<ol>
   </div>
 </body>
+</html>
